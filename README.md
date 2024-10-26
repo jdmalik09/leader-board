@@ -1,5 +1,5 @@
 # Player Score Management System
-# Hosted link : - [(https://jdmalik09.github.io/leader-board/)]
+## Hosted link : - [(https://jdmalik09.github.io/leader-board/)]
 ## Overview
 This project is a simple web application that allows users to enter player information, including first name, last name, country, and score. The application displays the players in a leaderboard format, allowing users to update scores or remove players. Each entry also includes a timestamp of when the player was added.
 
