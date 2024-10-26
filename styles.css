@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+    /* background-color: rgb(231, 206, 142); */
+    background-color: #333B44;
+}
+
+.section{
+    justify-items: center;
+}
+h1{
+    font-size: 60px;
+    padding: 1rem;
+    text-transform: uppercase;
+    color: white;
+    /* text-shadow: 0px 0px 10px black; */
+    text-shadow: 
+        1px 1px 0 #000,
+        2px 2px 0 #000,
+        3px 3px 0 #000,
+        4px 4px 0 #000,
+        5px 5px 0 #000; /* Creates depth */
+    /* transform: rotateX(20deg) rotateY(20deg); */
+}
+#form{
+    display: flex;
+    gap: 0.7rem;
+}
+#input{
+    padding: 0.4rem;
+    padding-left: 1rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #CED0CF;
+    font-size: large;
+}
+.button{
+    padding: 0.5rem;
+    width: 12rem;
+    border: 2px solid pink;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: #00564C;
+    font-size: larger;
+    color: whitesmoke;
+}
+
+.boards{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#00564C ;
+    justify-self: center;
+    /* border: 2px solid black; */
+    border-radius: 0.5rem;
+}
+
+.button_group{
+    background-color:#a9a9a9;
+    margin: 1rem;
+    width: 70vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 1rem;
+    /* gap: 2rem; */
+    /* justify-items: center; */
+    /* align-items: center; */
+    font-size: 20px;
+}
+.span1{
+    text-transform: capitalize;
+    width: 30%;
+}
+.date{
+    font-size: small;
+    color: white;
+}
+.coun{
+    width: 20%;
+    text-transform: capitalize;
+    /* color: whitesmoke; */
+    /* overflow-x: hidden; */
+}
+.score{
+    width: 15%;
+    color: rgb(18, 6, 127);
+    /* overflow-x: hidden; */
+}
+.del,.plus, .minus{
+    width: 6%;
+    height: 40px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10%;
+    cursor: pointer;
+    font-size: large;
+    color: black;
+}
+
+.del:active, .plus:active ,.minus:active{
+    transform: scale(0.9);
+}
